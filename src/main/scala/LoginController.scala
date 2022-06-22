@@ -7,12 +7,10 @@ class LoginController extends LoginControllerBase {
 
     override def connectPress(event: ActionEvent): Unit = {
 
-      val loginField = tfLogin.getText
-
-      val addressField = tfAddress.getText
+      val loginField = textFieldLogin.getText
 
       val loader  = new FXMLLoader()
-      loader.setLocation(getClass.getResource("wew.fxml"))
+      loader.setLocation(getClass.getResource("chatForm.fxml"))
 
       val scene = new Scene(loader.load, 600, 400)
 

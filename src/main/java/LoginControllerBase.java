@@ -6,13 +6,10 @@ import javafx.scene.control.TextField;
 public class LoginControllerBase {
 
     @FXML
-    protected  Button connectButtn;
+    protected  Button connectButton;
 
     @FXML
-    protected  TextField tfAddress;
-
-    @FXML
-    protected  TextField tfLogin;
+    protected  TextField textFieldLogin;
 
     @FXML
     void connectPress(ActionEvent event) {

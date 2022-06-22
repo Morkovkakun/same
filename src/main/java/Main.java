@@ -12,7 +12,7 @@ public class Main extends Application {
     @Override
     public void start(Stage stage) throws IOException {
 
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("logiForm.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("loginForm.fxml"));
         VBox root = (VBox) loader.load();
         Scene scene = new Scene(root);
 
