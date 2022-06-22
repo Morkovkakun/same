@@ -19,15 +19,6 @@ public class ChatControllerBase {
     @FXML
     protected TextField sendInput;
 
-    protected String username;
-
-    public void setUsername(String name) {
-        username = name;
-    }
-
-    public String getUsername() {
-        return username;
-    }
 
     @FXML
     protected void onBtnSend(ActionEvent event) {

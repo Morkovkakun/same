@@ -8,10 +8,11 @@ import javafx.stage.Stage;
 public class LoginControllerBase {
 
     @FXML
-    protected  Button connectButton;
+    protected Button connectButton;
 
     @FXML
-    protected  TextField textFieldLogin;
+    protected TextField textFieldLogin;
+
 
 
     @FXML

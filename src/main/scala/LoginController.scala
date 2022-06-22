@@ -5,23 +5,13 @@ import javafx.stage.Stage
 
 class LoginController extends LoginControllerBase {
 
-    override def connectPress(event: ActionEvent): Unit = {
+  override def connectPress(event: ActionEvent): Unit = {
+    login = textFieldLogin.getText
 
-      val loginField = textFieldLogin.getText
+    val stage = connectButton.getScene.getWindow.asInstanceOf[Stage]
+    stage.close()
 
-      val loader  = new FXMLLoader()
-      loader.setLocation(getClass.getResource("chatForm.fxml"))
-
-      val scene = new Scene(loader.load, 600, 400)
-
-      val stage = new Stage
-
-      stage.setTitle("chat")
-
-      stage.setScene(scene)
-
-      stage.show()
-    }
+  }
 
 
 }

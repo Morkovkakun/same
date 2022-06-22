@@ -4,7 +4,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginController">
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginController">
 
     <children>
         <TextField fx:id="textFieldLogin" alignment="CENTER" prefHeight="3.0" prefWidth="600.0" promptText="name or login">
@@ -18,6 +18,5 @@
                 <Insets top="15.0" />
             </VBox.margin>
         </Button>
-      <Button fx:id="closeButton" mnemonicParsing="false" text="exit" textAlignment="CENTER" textFill="#cf1b1b" />
     </children>
 </VBox>

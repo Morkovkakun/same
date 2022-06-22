@@ -4,17 +4,15 @@ class ChatController extends ChatControllerBase {
 
   override def onBtnSend(event: ActionEvent): Unit = {
 
-    val textMessage = username + " " + sendInput.getText + "\n"
+    val textMessage = sendInput.getText + "\n"
 
     sendInput.clear()
 
-    val Message =  msgField.getText
+    val takeOutput = msgField.getText
 
-    val loginPlusText = Message + textMessage
+    val outputText = login + ":   " + takeOutput + textMessage
 
-    msgField.setText(loginPlusText)
-
-
+    msgField.setText(outputText)
 
 
   }
