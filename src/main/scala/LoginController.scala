@@ -5,6 +5,8 @@ import javafx.stage.Stage
 
 class LoginController extends LoginControllerBase {
 
+  var login: String = null
+
   override def connectPress(event: ActionEvent): Unit = {
     login = textFieldLogin.getText
 
