@@ -14,10 +14,10 @@ public class ChatControllerBase {
     protected ListView<?> lvFriendView;
 
     @FXML
-    protected TextArea taAllText;
+    protected TextArea msgField;
 
     @FXML
-    protected TextField tfUserMessage;
+    protected TextField sendInput;
 
     protected String username;
 
